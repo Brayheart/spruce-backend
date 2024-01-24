@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const db = require('./database');
 const values= require('./seeds')
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 3000
 
 app.use(cors());
 app.use(express.json());
